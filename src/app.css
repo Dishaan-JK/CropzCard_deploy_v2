@@ -1,0 +1,40 @@
+:root {
+    /* Base Colors (Dark Default) */
+    --color-primary: #059669;
+    /* Deep Emerald Green */
+    --color-primary-dark: #065f46;
+    --color-accent: #d9f99d;
+    /* Lime */
+    --color-bg-dark: #0f172a;
+    --color-text-light: #f1f5f9;
+    --color-text-dim: #94a3b8;
+    --glass-bg: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.2);
+    --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+
+    /* Theme Variables */
+    --bg-main: var(--color-bg-dark);
+    --text-main: var(--color-text-light);
+    --text-secondary: var(--color-text-dim);
+    --card-bg: var(--glass-bg);
+    --card-border: var(--glass-border);
+}
+
+[data-theme="light"] {
+    --bg-main: #f0fdf4;
+    /* Light Greenish White */
+    --text-main: #1e293b;
+    --text-secondary: #64748b;
+    --card-bg: rgba(255, 255, 255, 0.7);
+    --card-border: rgba(0, 0, 0, 0.1);
+    --color-accent: #15803d;
+    /* Darker Green for contrast */
+}
+
+* {
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+}
